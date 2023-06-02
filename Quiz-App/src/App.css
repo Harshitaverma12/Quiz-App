@@ -1,0 +1,235 @@
+body {
+  background: #043152 !important;
+}
+
+label[data-shrink="false"]
+  + .MuiInputBase-formControl
+  .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  color: white !important;
+  border: 1px solid !important;
+  border-radius: 4px !important;
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  color: white !important;
+}
+label[data-shrink="false"]
+  + .MuiInputBase-formControl
+  .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input
+  :hover {
+  color: white !important;
+  border: 1px solid !important;
+  border-radius: 4px !important;
+}
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: #ffffff !important;
+}
+
+.BasicSlideBorder {
+  background-color: #000;
+  left: 0px !important;
+}
+
+.css-1mk9mw3-MuiList-root {
+  transition-duration: 372ms !important;
+  overflow-y: scroll !important;
+  height: 16.6rem !important;
+  margin-right: 1rem !important;
+}
+
+.loginLogo {
+  height: 5rem;
+}
+
+.loginImage {
+  height: 14rem;
+  width: 24rem;
+  margin-top: 7rem;
+  margin-left: 1.7rem;
+}
+
+.loginCard {
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  height: 35rem;
+}
+
+.loginText {
+  color: #043152 !important;
+  margin-left: 3.7rem !important;
+  margin-top: 1rem !important;
+  font-weight: 600 !important;
+}
+
+.loginWelText {
+  color: white;
+  margin: auto !important;
+  margin-left: 4.5rem !important;
+  font-family: "SF PRO" !important;
+  margin-top: 3rem !important;
+}
+
+.loginAcc {
+  color: white;
+  margin-top: 1rem !important;
+  margin-left: 4.5rem !important;
+  font-size: 1rem !important;
+}
+
+.loginSignUp {
+  color: white !important;
+  margin-top: 1.1rem !important;
+  margin-left: 1rem !important;
+  text-decoration: underline !important;
+  font-weight: bolder !important;
+}
+
+.loginImageDiv {
+  background: #d7edfd !important;
+}
+
+.loginInputDiv {
+  background: linear-gradient(#0093ff, #043152);
+}
+
+.loginInputBox {
+  display: flex !important;
+  flex-direction: column !important;
+  margin-top: 3rem;
+}
+
+.loginInput1 {
+  color: white;
+  width: 19rem !important;
+  margin: auto !important;
+}
+
+.loginInput2 {
+  color: white;
+  width: 19rem !important;
+  margin: auto !important;
+  margin-top: 2rem !important;
+}
+
+.signupInput2 {
+  color: white;
+  width: 19rem !important;
+  margin: auto !important;
+  margin-top: 1rem !important;
+}
+
+.loginCheckStatus {
+  display: flex !important;
+  flex-direction: row !important;
+  margin-top: 1rem !important;
+  justify-content: space-around !important;
+}
+
+.loginCheckBox {
+  display: flex !important;
+}
+
+.loginCheckboxStyle {
+  color: white !important;
+}
+
+.loginButton {
+  border: 2px solid white !important;
+  width: 19rem !important;
+  margin: auto !important;
+  color: white !important;
+  margin-left: 4.5rem !important;
+  margin-top: 2.5rem !important;
+}
+
+.loginLogText {
+  color: white;
+  margin-top: 1rem !important;
+  margin-left: 0rem !important;
+}
+
+.loginForgetText {
+  margin-top: 1rem !important;
+  color: #ffffff !important;
+}
+
+.loginInputText {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.css-d9ml5t-MuiDrawer-docked .MuiDrawer-paper {
+  box-sizing: border-box;
+  width: 240px;
+  margin-top: 4rem;
+}
+
+.quiz-question-card {
+  /* Center the div  */
+  margin: 0 auto;
+
+  /* Dimensions  */
+  width: 80%; /* Can be in percentage also. */
+  height: auto;
+
+  /* Visual  */
+  background-color: gray;
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.quiz-ul {
+  list-style: none;
+}
+
+.quiz-li {
+  margin-top: 8px;
+  background-color: darkgray;
+  padding: 16px;
+  border: 3px solid white;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.quiz-question-text {
+  color: darkblue;
+  font-size: 24px;
+}
+
+/* Final Results  */
+
+.quiz-final-results {
+  /* Center the div  */
+  margin: 0 auto;
+
+  /* Dimensions  */
+  width: 50%; /* Can be in percentage also. */
+  height: auto;
+  margin-top: 64px;
+
+  /* Visual  */
+  background-color: gray;
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.ReactModal__Content--after-open {
+  position: absolute;
+  inset: 40px;
+  border: 1px solid rgb(204, 204, 204);
+  background: #1976d2;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  height: 13rem;
+  width: 46rem;
+  margin-left: 19rem;
+  margin-top: 13rem;
+}
